@@ -33,13 +33,13 @@ node ./dist/clickjackingmap.js -u https://teste.com -p clickbasic
 Isso exibirá a ajuda para a ferramenta. Aqui estão todos os switches que ele suporta:
 ```yaml
 
-        __ __        __     __              __     __
+               __ __        __     __              __     __                                   
         .----.|  |__|.----.|  |--.|__|.---.-.----.|  |--.|__|.-----.-----.--------.---.-.-----.
         |  __||  |  ||  __||    < |  ||  _  |  __||    < |  ||     |  _  |        |  _  |  _  |
         |____||__|__||____||__|__||  ||___._|____||__|__||__||__|__|___  |__|__|__|___._|   __|
-                                 |___|                             |_____|              |__|   
-                                                                         Autor: joaovictorti
-                                                                         version: 1.1
+                                 |___|                             |_____|              |__|
+                                                                            Autor: joaovictorti
+                                                                            version: 1.1   
 
 usage: clickjackingmap.js [-h] -u URL -p {clickbasic,clickmulti}
 
@@ -65,13 +65,13 @@ git clone https://github.com/joaoviictorti/clickjackingmap
 ```console
 node .\dist\clickjackingmap.js -u https://teste.com -p clickbasic
 
-        __ __        __     __              __     __
+               __ __        __     __              __     __                                   
         .----.|  |__|.----.|  |--.|__|.---.-.----.|  |--.|__|.-----.-----.--------.---.-.-----.
         |  __||  |  ||  __||    < |  ||  _  |  __||    < |  ||     |  _  |        |  _  |  _  |
         |____||__|__||____||__|__||  ||___._|____||__|__||__||__|__|___  |__|__|__|___._|   __|
-                                 |___|                             |_____|              |__|  
-                                                                         Autor: joaovictorti
-                                                                         version: 1.1
+                                 |___|                             |_____|              |__|
+                                                                            Autor: joaovictorti
+                                                                            version: 1.1   
 clicjackingbasic.html:
 
 <style>
