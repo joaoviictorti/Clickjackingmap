@@ -2,7 +2,7 @@
   "name": "clickjackingmap",
   "version": "1.0.0",
   "description": "Generator Payloads focus in clickjacking",
-  "main": "clickjackingmap.js",
+  "main": "dist/clickjackingmap.js",
   "scripts": {
     "start": "node dist/clickjackingmap.js",
     "build":"npx tsc --project ./tsconfig.json"
