@@ -10,13 +10,15 @@ export class MenuPrograma{
             add_help: true
           });
         parser.add_argument('-u', '--url', { help: 'Insert url',type:'str', action: "store", dest:"url", required: true });
-        parser.add_argument('-p','--payload',{help: 'Insert Payload',type:'str',action:"store",choices:["clickbasic","clickmulti"],dest:"payload",required: true})
+        parser.add_argument('-p','--payload',{help: 'Insert Payload',type:'str',action:"store",choices:["clickbasic","clickmulti","clickjs"],dest:"payload",required: true})
         let args = parser.parse_args();
         
         if(args.url && args.payload == "clickbasic"){
-            clickjacking.clickJackingBasic(args.url);
+            clickjacking.clickbasic(args.url);
         }else if(args.url && args.payload == "clickmulti"){
-            clickjacking.multiStepClickJacking(args.url);
+            clickjacking.multiclick(args.url);
+        }else if(args.url && args.payload == "clickjs"){
+            clickjacking.clickjs(args.url);
         }else{
             console.dir(parser.parse_args());
         }
